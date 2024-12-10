@@ -45,13 +45,14 @@ The Core Database Initializer project provides a dockerized solution for initial
 <h2 id="system-startup">🚀 System Startup</h2> 
 
 * Create a new directory named "core".
-* Clone the `core-docker-config` and `core-phpmyadmin` repositories into the "core" directory.
+* Clone the `core-docker-config` and `core-database-initializer-alpine-mysql-client` repositories into the "core" directory.
 ```
 git clone https://github.com/ahmettoguz/core-docker-config
-git clone https://github.com/ahmettoguz/core-phpmyadmin
+git clone https://github.com/ahmettoguz/core-database-initializer-alpine-mysql-client
 ```
+* Modify the `.env` file to configure database credentials, host and database name.
+* Replace the `init.sql` file with your custom SQL script to initialize the database schema and seed data.
 * Refer to the documentation provided in the [`core-docker-config`](https://github.com/ahmettoguz/core-docker-config) project for the system startup commands.
-
 
 <br/>
 
