@@ -39,6 +39,7 @@ The Core Database Initializer project provides a dockerized solution for initial
 + **Database Initialization:** Automatically sets up the MySQL database schema and loads seed data during container startup.
 + **Lightweight Alpine Base:** Built using an Alpine Linux base for minimal image size and faster startup.
 + **Felxibility:** Easily modify the default schema and data by updating SQL scripts in the project.
++ **Docker Containerization:** The application is containerized for consistent deployment and scaling.
 
 <br/>
 
