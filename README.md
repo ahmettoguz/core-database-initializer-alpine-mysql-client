@@ -20,7 +20,7 @@
 
 <h2 id="intro">📌 About Project</h2>
 
-The core phpMyAdmin project focuses on building a phpMyAdmin image for managing MySQL databases with a dark theme, using microservice architecture.
+The Core Database Initializer project provides a dockerized solution for initializing MySQL databases with default schemas and seed data. It is particularly designed for development and testing processes, ensuring a consistent and reproducible database environment.
   
 <br/>
 
@@ -36,8 +36,9 @@ The core phpMyAdmin project focuses on building a phpMyAdmin image for managing 
 
 <h2 id="features">🔥 Features</h2>
 
-+ **Dark Theme Interface:** A phpMyAdmin dashboard for managing MySQL databases with a dark theme.
-+ **Docker Containerization:** The application is containerized for consistent deployment and scaling.
++ **Database Initialization:** Automatically sets up the MySQL database schema and loads seed data during container startup.
++ **Lightweight Alpine Base:** Built using an Alpine Linux base for minimal image size and faster startup.
++ **Felxibility:** Easily modify the default schema and data by updating SQL scripts in the project.
 
 <br/>
 
