@@ -142,7 +142,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`_id`, `created_at`, `updated_at`, `first_name`, `email`, `password`, `is_active`, `domain_id`) VALUES
-(1, '2024-04-05 14:11:14', '2024-04-05 14:11:14', 'admin', 'admin@hotmail.com', '$2a$10$RaU93TnN0W29vcEa9tIbKukiDlyPdXzXa3xC0BYx4nTzUP3zKWT/6', 1, NULL),
+(1, '2024-04-05 14:11:14', '2024-04-05 14:11:14', 'admin', 'admin@hotmail.com', '$2a$10$n194rT3Y1xDJYMTSnCjVHOvIbSX5qhi6mvS.KeLYEmrttx57bBsCG', 1, NULL),
 (2, '2024-04-05 14:11:55', '2024-04-05 14:11:55', 'tuna', 'tuna@hotmail.com', '$2a$10$RaU93TnN0W29vcEa9tIbKukiDlyPdXzXa3xC0BYx4nTzUP3zKWT/6', 1, 2),
 (3, '2024-04-05 14:12:17', '2024-04-05 14:12:17', 'ahmet', 'ahmet@hotmail.com', '$2a$10$RaU93TnN0W29vcEa9tIbKukiDlyPdXzXa3xC0BYx4nTzUP3zKWT/6', 1, 1),
 (4, '2024-04-05 14:15:25', '2024-04-05 14:15:25', 'kısmet', 'kısmet@hotmail.com', '$2a$10$RaU93TnN0W29vcEa9tIbKukiDlyPdXzXa3xC0BYx4nTzUP3zKWT/6', 1, NULL);
