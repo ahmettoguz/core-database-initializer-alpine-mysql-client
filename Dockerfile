@@ -1,8 +1,6 @@
-FROM alpine
+FROM ahmettoguz/mysql-client
 
 WORKDIR /ahmet
-
-RUN apk add --no-cache mysql-client mariadb-connector-c
 
 COPY ./init.sql .
 
